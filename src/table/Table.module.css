@@ -1,0 +1,43 @@
+.wrapper {
+    overflow: auto;
+}
+
+.table {
+    width: 100%;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.th {
+    background: #BCEBDD;
+    color: cornflowerblue;
+    text-shadow: 0 1px 1px #2D2020;
+    padding: 0.5rem 1rem;
+    border-radius: 0.1rem;
+}
+
+.td {
+    background: cadetblue;
+    color: ghostwhite;
+    text-shadow: 0 1px 1px dimgray;
+    padding: 0.5rem 1rem;
+    border-radius: 0.1rem;
+}
+
+.thm:hover {
+    cursor: pointer;
+    background: cadetblue;
+}
+
+.button {
+    padding: 0.5rem 0;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.img {
+    width: 20px;
+    vertical-align: middle;
+}
