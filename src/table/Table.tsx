@@ -28,6 +28,7 @@ export const Table = React.memo((
         <div className={style.wrapper}>
             <table className={style.table}>
                 <thead className={style.thead}>
+
                 <tr>
                     {
                         OPTIONS.map(({name, option}) => {
